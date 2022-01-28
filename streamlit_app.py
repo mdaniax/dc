@@ -1,18 +1,10 @@
 # %%
 #import dependencies 
-import matplotlib.pyplot as plt 
 import pandas as pd
 import streamlit as st
-import numpy as np
 import plotly.express as px
-from plotly.subplots import make_subplots
-import plotly.graph_objects as go
-import matplotlib.pyplot as plt
 import pdblp as bbg
 from datetime import date
-from xbbg import blp
-#import altair as alt
-
 
 st.set_page_config(
     page_title = "Consumer Dashboard", 
@@ -31,13 +23,6 @@ if page == "State of the US Consumer":
 elif page == "Macroeconomic Indicators":
     # Display details of page 1
     st.title("Macroeconomic Indicators")
-    st.sidebar.subheader("")
-    st.sidebar.subheader("")
-    st.sidebar.subheader("Macroeconomic Indicators")
-    st.sidebar.write("   1.    Cost of Living")
-    st.sidebar.write("   2.    Consumer Confidence and Sentiment")
-    st.sidebar.write("   3.    Economic Growth and Retail Sales")
-    st.sidebar.write("   4.    Financial Indicators")       
 
     # %% Bloomberg data 
 
@@ -112,15 +97,5 @@ elif page == "Macroeconomic Indicators":
                         y=0.98,
                         bgcolor = 'white')
         st.plotly_chart(cpiyoy_fig,use_container_width= True)
-        
-        #CPI heatmap 
-        cpiyoy_recent = cpiyoy_s.tail(18)
-        cpiyoy_recent = cpiyoy_recent.transpose()
-
-        cpiyoy_fig2 = px.imshow(cpiyoy_recent, color_continuous_scale='temps', zmin =1, zmax = 6)
-        cpiyoy_fig2.update_layout(height=70, coloraxis_showscale=False, margin=dict(l=40, r=30, t=20, b=20))
-        cpiyoy_fig2.update_xaxes(showticklabels=True, title = '')
-        cpiyoy_fig2.update_yaxes(showticklabels=False)
-        st.plotly_chart(cpiyoy_fig2, use_container_width= True)
-
+    
     

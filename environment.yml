@@ -1,22 +1,15 @@
 name: dashboard
 channels:
-  - jmcmurray
   - conda-forge
-  - defaults
 dependencies:
   - blpapi=3.17.1=py37_blpapicpp3.16.1.1_0
   - matplotlib-base=3.5.0=py39h6214cd6_0
   - matplotlib-inline=0.1.2=pyhd3eb1b0_2
-  - numpy-base=1.21.2=py39h0829f74_0
+  - pandas=1.3.5=py39h6214cd6_0
   - pip=21.2.4=py39haa95532_0
-  - plotly=5.1.0=pyhd3eb1b0_0
+  - plotly=5.5.0=py_0
   - python=3.9.7=h6244533_1
-  - python-dateutil=2.8.2=pyhd3eb1b0_0
-  - python_abi=3.9=2_cp39
   - pip:
-    - fredapi==0.4.3
     - pdblp==0.1.8
-    - py==1.11.0
     - streamlit==1.3.0
-    - xbbg==0.7.6
 prefix: C:\Users\javedm\Anaconda3\envs\dashboard
