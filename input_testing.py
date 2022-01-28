@@ -1,16 +1,10 @@
 # %%
 #import dependencies 
-import matplotlib.pyplot as plt 
 import pandas as pd
 import streamlit as st
-import numpy as np
 import plotly.express as px
-from plotly.subplots import make_subplots
-import plotly.graph_objects as go
-import matplotlib.pyplot as plt
 import pdblp as bbg
 from datetime import date
-from xbbg import blp
 
 ticker = st.text_input('Ticker', 'HD US Equity')
 
