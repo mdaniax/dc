@@ -2,7 +2,6 @@
 #import dependencies 
 import pandas as pd
 import streamlit as st
-import plotly.express as px
 import pdblp as bbg
 from datetime import date
 
