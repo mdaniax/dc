@@ -8,11 +8,11 @@ dependencies:
   - cython
   - blpapi
   - pyarrow
+  - streamlit
   - pip
   - pip:
     - numpy==1.16.2
     - pdblp
-    - streamlit
     - numpy==1.16.2
     
 
