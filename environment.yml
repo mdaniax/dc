@@ -11,7 +11,7 @@ dependencies:
     - pandas
     - streamlit
     - pdblp==0.1.8
-    - numpy==1.14.2
+    - numpy==1.16.2
     
 
 prefix: C:\Users\javedm\Anaconda3\envs\dashboard
