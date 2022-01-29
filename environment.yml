@@ -3,17 +3,17 @@ channels:
   - conda-forge
 dependencies:
   - pandas
-  - numpy=1.16.2
+  - numpy==1.16.2
   - cmake
   - cython
   - blpapi
   - pyarrow
   - pip
   - pip:
-    - numpy=1.16.2
+    - numpy==1.16.2
     - pdblp
     - streamlit
-    - numpy=1.16.2
+    - numpy==1.16.2
     
 
 prefix: C:\Users\javedm\Anaconda3\envs\dashboard
