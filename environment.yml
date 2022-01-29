@@ -5,12 +5,13 @@ dependencies:
   - cmake
   - cython
   - blpapi=3.17.1=py37_blpapicpp3.16.1.1_0
-  - pyarrow
+  - pyarrow==6.0.0
+  
   - pip
   - pip:
     - pandas
     - streamlit
-    - pdblp
+    - pdblp==0.1.8
     - numpy==1.14.2
     
 
