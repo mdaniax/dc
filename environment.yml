@@ -2,6 +2,7 @@ name: dashboard
 channels:
   - conda-forge
 dependencies:
+  - tensorflow
   - pandas
   - numpy=1.22.1
   - cmake
