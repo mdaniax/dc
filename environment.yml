@@ -2,6 +2,7 @@ name: dashboard
 channels:
   - conda-forge
 dependencies:
+  - numpy
   - cmake
   - cython
   - blpapi
