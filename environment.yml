@@ -1,0 +1,19 @@
+
+name: dashboard
+channels:
+  - anaconda
+  - conda-forge
+dependencies:
+  - blpapi=3.17.1=py37_blpapicpp3.16.1.1_0
+  - pip
+  - cmake
+  - cython
+  - pyarrow
+  - pdblp==0.1.8
+  - streamlit
+  
+    
+    
+    
+
+prefix: C:\Users\javedm\Anaconda3\envs\dashboard
