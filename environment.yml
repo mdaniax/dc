@@ -2,9 +2,8 @@ name: dashboard
 channels:
   - conda-forge
 dependencies:
-  - tensorflow
   - pandas
-  - numpy=1.22.1
+  - numpy=1.21.2
   - cmake
   - cython
   - blpapi
