@@ -7,7 +7,7 @@ dependencies:
   - pip:
     - cmake
     - cython
-    - pyarrow==0.9.0
+    - pyarrow
     - pdblp==0.1.8
     - streamlit
     
