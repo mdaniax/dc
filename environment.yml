@@ -8,6 +8,6 @@ dependencies:
     - pdblp==0.1.8
     - streamlit
     - pip
-    - pyarrow
+    - pyarrow==0.9.0
 
 prefix: C:\Users\javedm\Anaconda3\envs\dashboard
